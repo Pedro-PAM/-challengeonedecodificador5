@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: #F3F5FC;  
+}
+
+.alura-icon > img {
+    display:flex;
+    position:relative;    
+    top:40px;
+    left:40px;
+    gap:40px;
+}
+
+.mensagem-texto{
+    display:flex;
+    position:absolute;
+    flex-direction: column;
+    top:168px;    
+    left:240px;      
+}
+
+.mensagem-texto > textarea {
+    height:380px;
+    width:686px;
+    text-align: left;    
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    border-style:none;    
+}
+
+.mensagem-texto > h6{
+    display:flex;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;        
+    gap:8px;
+}
+
+.botoes{
+    position:absolute;
+    display:flex;    
+    top: 585px;
+    left: 240px;
+    gap: 24px;
+}
+
+.botoes > .cripto{
+    background: #0A3871;
+    padding: 24px;
+    width:328px;
+    height:67px;
+    border-style:none;
+    border-radius: 24px;
+    gap: 8px;
+    color: #fff;
+}
+.botoes > .descripto{
+    background: #D8DFE8;
+    padding: 24px;
+    width:328px;
+    height:67px;
+    border-style:1px #0A3871 ;
+    border-radius: 24px;
+    gap: 8px;
+    color: #0A3871;
+}
+
+.nenhuma-mensagem{
+    position:fixed;
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background: #FFFFFF;
+}
+
+.nenhuma-mensagem > img {
+    position:fixed;
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    left: 1032px;
+}
+
+.nenhuma-mensagem > h3, h4{
+    position:fixed;
+    width:336px;
+    height:122px;    
+    gap: 16px;
+}
+
+.nenhuma-mensagem > h3 {    
+    top: 619px;
+    left: 1032px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.nenhuma-mensagem > h4 {    
+    top: 678px;
+    left: 1032px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
