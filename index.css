@@ -96,11 +96,24 @@ body{
     left: 1032px;
 }
 
-.nenhuma-mensagem > h3, h4{
+
+.nenhuma-mensagem > span > h3, h4{
     position:fixed;
     width:336px;
     height:122px;    
     gap: 16px;
+}
+
+.nenhuma-mensagem > span > h3 {    
+    top: 619px;
+    left: 1032px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
 }
 
 .nenhuma-mensagem > h3 {    
@@ -115,7 +128,8 @@ body{
 
 }
 
-.nenhuma-mensagem > h4 {    
+
+.nenhuma-mensagem > span > h4 {    
     top: 678px;
     left: 1032px;
     font-family: Inter;

@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100;300&family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
@@ -13,15 +12,14 @@
 <body>
     <div class="alura-icon">
         <img src="./assets/Vector.png">
-
     </div>
-    <div class="nenhuma-mensagem">
-        <img src="./assets/High quality products 1 1.svg">
-        <h3>Nenhuma mensagem encontrada</h3>
-        <h4>Digite um texto que você deseja criptografar ou descriptografar.</h4>
-        
-
-    </div>
+    <div class="nenhuma-mensagem" id="nenhuma-mensagem">        
+        <img src="./assets/High quality products 1 1.svg" id="no-msg">
+        <span id="mensagemCode">
+            <h3>Nenhuma mensagem encontrada</h3>
+            <h4>Digite um texto que você deseja criptografar ou descriptografar.</h4>
+        </span>
+   </div>
     <div class="mensagem-texto">        
         <textarea class="textarea" id="textInput">Digite seu Texto</textarea>
         <h6 class="helper-text"><img src="./assets/Group.png">Apenas letras minúsculas e sem acento.</h6>      
@@ -30,6 +28,7 @@
         <button class="cripto" id="criptografar">Criptografar</button>
         <button class="descripto" id="descriptografar">Descriptografar</button>
     </div>
+    <script src="index.js"></script>
     
 </body>
 </html>
