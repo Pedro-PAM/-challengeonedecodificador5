@@ -5,7 +5,6 @@ const mensagemCode = document.getElementById('mensagemCode');
 
 
 function criptoText(text){
-    // text = text.replace(/a/g, 'ai').replace(/e/g, 'enter').replace(/i/g, 'imes').replace(/o/g, 'ober').replace(/u/g, 'ufat');
     text = text.replace(/imes/g, 'i').replace(/a/g, 'ai').replace(/e/g, 'enter').replace(/o/g, 'ober').replace(/u/g, 'ufat');    
     icon = document.getElementById('nenhuma-mensagem');    
     nomsg = document.getElementById('no-msg');
